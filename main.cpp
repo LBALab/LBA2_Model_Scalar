@@ -100,9 +100,9 @@ void loadModel(char fileName[MAXFILE])
 	// convert vertices
 	for (int i = 1; i <= vertexNum; i++)
 		{
-		newVertices[i].x =    (theVertices[i].x * (short)scale);
-		newVertices[i].y =    (theVertices[i].y * (short)scale);
-		newVertices[i].z =    (theVertices[i].z * (short)scale);
+		newVertices[i].x =    (theVertices[i].x * scale);
+		newVertices[i].y =    (theVertices[i].y * scale);
+		newVertices[i].z =    (theVertices[i].z * scale);
 		newVertices[i].bone = (theVertices[i].bone);
 		
 		/*
